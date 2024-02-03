@@ -1,6 +1,6 @@
 package ru.gb.oop.dz_task_1;
 
-class User extends Buyer{
+class User extends Buyer {
     protected String login;
     private String password;
 

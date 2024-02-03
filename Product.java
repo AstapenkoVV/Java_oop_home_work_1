@@ -1,6 +1,6 @@
 package ru.gb.oop.dz_task_1;
 
-class Product{
+class Product {
     public String name;
     public String category;
     public Integer quantity;

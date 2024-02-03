@@ -3,8 +3,10 @@ package ru.gb.oop.dz_task_1;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
+
 class Basket extends Buyer {
     protected ArrayList<Product> productsList;
+
     public Basket() {
         this.productsList = new ArrayList<>();
     }

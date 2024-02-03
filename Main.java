@@ -53,7 +53,7 @@ public class Main {
         user2.getBasket().addProduct(product3, 4);
 
         user2.getBasket().addProduct(product5, 5);
-        user2.getBasket().removeProduct(product5,1);
+        user2.getBasket().removeProduct(product5, 1);
 
         user3.getBasket().addProduct(product1, 4);
         user3.getBasket().addProduct(product3, 2);
@@ -85,7 +85,7 @@ public class Main {
         for (String product : productTotalPrice.keySet()) {
             System.out.println(
                     "  Товар: " + product +
-                            ", Цена: " + ((productTotalPrice.get(product)) / getTotalQuantity.get(product))  +
+                            ", Цена: " + ((productTotalPrice.get(product)) / getTotalQuantity.get(product)) +
                             ", Количество: " + getTotalQuantity.get(product) +
                             ", Итог: " + productTotalPrice.get(product));
         }
